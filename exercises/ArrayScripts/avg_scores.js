@@ -10,4 +10,6 @@ function getAverage(scores) {
   return total / scores.length;
 }
 let averageScore = getAverage(myScores);
+let yourAverageScore = getAverage(yourScores);
 console.log(averageScore.toFixed(2));
+console.log(yourAverageScore.toFixed(2));
